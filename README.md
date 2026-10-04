@@ -10,6 +10,7 @@ The central idea is to follow a document from ingestion to a cited answer. Along
 
 ## Contents
 
+- [Architecture overview](#architecture-overview)
 - [Start here](#start-here)
 - [Run the foundational notebooks](#run-the-foundational-notebooks)
 - [Follow a document through RAG](#follow-a-document-through-rag)
@@ -29,6 +30,14 @@ The central idea is to follow a document from ingestion to a cited answer. Along
 - [Notebook collections and implementations](#notebook-collections-and-implementations)
 - [Our notebook and project roadmap](#our-notebook-and-project-roadmap)
 - [Contributing resources](#contributing-resources)
+
+## Architecture overview
+
+![Multi-cloud RAG architecture showing ingestion, document processing, embeddings, indexing, retrieval, fusion, reranking, generation, evaluation, observability, security, and deployment](images/Production-Grade%20Multi-Cloud%20RAG%20Architecture.png)
+
+This diagram maps the broader architecture the labs and projects explore. It includes planned capabilities; the lab catalog and roadmap identify what is currently implemented.
+
+[Open the full-size architecture diagram](images/Production-Grade%20Multi-Cloud%20RAG%20Architecture.png).
 
 ## Start here
 
@@ -269,11 +278,10 @@ The first project will be a document assistant that answers with source referenc
 
 ## Contributing resources
 
-Suggest a resource through an issue or pull request. Include:
+Contributions are welcome for resources, explanations, notebooks, datasets, evaluation tools, and complete projects. Start with the [contribution guide](CONTRIBUTING.md) for setup, quality standards, validation commands, and the pull-request workflow.
 
-- A direct link to the original paper, official documentation, course, or implementation.
-- A short description of what a reader will learn.
-- The engineering question or experiment the resource helps investigate.
-- The most relevant category and any prerequisites or paid access requirements.
+- Read the [contributor agreement](CONTRIBUTOR_AGREEMENT.md) for authorship, licensing, attribution, and DCO sign-offs. The project-wide license is currently undecided; the agreement explains how this affects external contributions.
+- Follow the [code of conduct](CODE_OF_CONDUCT.md) in discussions and reviews.
+- Use the issue templates for bugs, resource suggestions, notebook/project proposals, and datasets. Pull requests include a review checklist.
 
-Prefer resources with clear explanations, useful examples, or reproducible experiments. Please report broken links and outdated examples. Listings are learning references, not rankings or endorsements; consult each resource's license before reusing its content or code.
+For a resource suggestion, provide the original link, what readers will learn, the relevant RAG stage, and any access requirements or affiliation. Listings are learning references, not rankings or endorsements.

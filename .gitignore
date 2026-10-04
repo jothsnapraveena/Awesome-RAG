@@ -5,3 +5,6 @@ __pycache__/
 data/scifact/
 data/scifact.zip
 data/*.part
+.cache/
+labs/**/data/**
+labs/**/results/latest.json
