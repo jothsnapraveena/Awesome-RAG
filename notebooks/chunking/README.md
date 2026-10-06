@@ -47,6 +47,7 @@ Use the same document when comparing chunking methods. This makes differences ea
 Recommended pattern for this repo:
 
 - Use the shared PDF across all notebooks.
+- Keep each notebook self-contained so learners can study one method without jumping into helper modules.
 - Preserve metadata such as page number, chunk ID, character offsets, and headings when available.
 - Ask the same comparison questions in every notebook.
 - Compare chunk count, average size, overlap, readability, and whether a chunk can support a cited answer.
@@ -72,4 +73,6 @@ For each strategy, inspect:
 - Would a retriever find the right chunk from the user query?
 - How many chunks are created and how much duplicate text is added?
 
-The notebooks in this folder use small examples so the behavior is visible. The foundational notebooks in `notebooks/foundations/` show the same ideas on the SciFact corpus.
+Each notebook defines the PDF loading, inspection helpers, and the chunking function it teaches. This is intentional: learners should be able to open one notebook and understand the method end to end.
+
+The foundational notebooks in `notebooks/foundations/` show related RAG ideas on the SciFact corpus.
